@@ -88,7 +88,7 @@ joplin.plugins.register({
 		await dialogs.setHtml(handle2, `
 		<p>Please Enter your password</p>
 		<form name="user">
-			<input type="text" name="pwd"/>
+			<input type="password" name="pwd"/>
 		</form>
 		`);
 
